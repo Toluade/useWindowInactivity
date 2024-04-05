@@ -7,7 +7,7 @@ const useWindowInactivity = (delay: number = 5) => {
   const events = ["mousemove", "touchstart"];
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout;
+    let timeout: ReturnType<typeof setTimeout>;
     events.forEach((event) =>
       window.addEventListener(event, () => {
         clearTimeout(timeout);
