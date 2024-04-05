@@ -1,0 +1,33 @@
+{
+  "name": "@toluade/use-window-inactivity",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Toluade/useWindowInactivity.git"
+  },
+  "homepage": "https://github.com/Toluade/useWindowInactivity#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "window-inactivity",
+    "useWindowInactivity",
+    "use-window-inactivity",
+    "react",
+    "hooks"
+  ],
+  "author": "Toluwalope Adeoye <toluade1512@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/react": "^18.2.73",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
