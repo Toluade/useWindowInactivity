@@ -8,6 +8,9 @@ const useWindowInactivity = (delay: number = 5) => {
 
   useEffect(() => {
     let timeout: ReturnType<typeof setTimeout>;
+    timeout = setTimeout(() => {
+      setInactive(true);
+    }, 5000);
     events.forEach((event) =>
       window.addEventListener(event, () => {
         clearTimeout(timeout);
